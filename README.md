@@ -35,11 +35,11 @@ image-captioning/
 
 ## Model
 
-- [Salesforce/blip-image-captioning-base](https://huggingface.co/Salesforce/blip-image-captioning-base)
+- [Salesforce/blip-image-captioning-large](https://huggingface.co/Salesforce/blip-image-captioning-large)
 
 ## Features
 
-- Image Captioning Application using BLIP model from Hugging Face's Transformers
+- Image Captioning Application using BLIP model from Salesforce
 - Using Gradio UI
 
 ## Installation
@@ -68,10 +68,10 @@ To install this project, open your Terminal and follow these steps:
 
 ## Usage
 
-To start the application, run the `image_captioning_app.py` file:
+To start the application, run the `app.py` file:
 
    ```bash
-   python image_captioning_app.py
+   python app.py
    ```
 This application will run locally at `http://127.0.0.1:7860`:
 
