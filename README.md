@@ -27,7 +27,7 @@ image-captioning/
 │   ├── test.py
 │   └── ronaldo.jpg
 ├── .gitignore
-├── image_captioning_app.py
+├── app.py
 ├── requirements.txt
 ├── LICENSE
 └── README.md
