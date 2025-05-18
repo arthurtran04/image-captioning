@@ -6,8 +6,8 @@ from PIL import Image
 from transformers import AutoProcessor, BlipForConditionalGeneration
 
 # Load the pretrained processor and model
-processor = AutoProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
-model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
+processor = AutoProcessor.from_pretrained("Salesforce/blip-image-captioning-large")
+model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-large")
 
 # Define the function to process the image and generate a caption
 def caption_image(input_image: np.ndarray):
@@ -32,7 +32,7 @@ iface = gr.Interface(
     inputs=gr.Image(), 
     outputs="text",
     title="Image Captioning",
-    description="This is a simple web app for generating captions for images using BLIP model from Hugging Face's Transformers."
+    description="This is a simple web app for generating captions for images using BLIP model from Salesforce.\nUpload the image file:"
 )
 
 # Launch the Gradio app
