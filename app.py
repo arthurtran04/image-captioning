@@ -6,8 +6,8 @@ from PIL import Image
 from transformers import AutoProcessor, BlipForConditionalGeneration
 
 # Load the pretrained processor and model
-processor = AutoProcessor.from_pretrained("Salesforce/blip-image-captioning-large")
-model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-large")
+processor = AutoProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
+model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
 # Define the function to process the image and generate a caption
 def caption_image(input_image: np.ndarray):
