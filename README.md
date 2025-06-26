@@ -35,7 +35,7 @@ image-captioning/
 
 ## Model
 
-- [Salesforce/blip-image-captioning-large](https://huggingface.co/Salesforce/blip-image-captioning-large)
+- [Salesforce/blip-image-captioning-large](https://huggingface.co/Salesforce/blip-image-captioning-base)
 
 ## Features
 
@@ -61,7 +61,7 @@ To install this project, open your Terminal and follow these steps:
 3. Create a Python virtual environment `venv` and install the required dependencies:
 
     ```sh
-    $ python -m venv venv
+    $ python3 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
     ```
@@ -75,15 +75,15 @@ To start the application, run the `app.py` file:
    ```
 This application will run locally at `http://127.0.0.1:7860`:
 
-<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/67f66624-ba28-4c98-98f6-dc39f4da8c8c"/>
+<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/f38485bb-8630-45bf-affc-e1a173f19e87"/>
 
 The UI:
 
-<img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/1fd98fa5-1901-434a-93af-5f1b96c4cf8f"/>
+<img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/6d013928-b0b4-4c13-b03c-6d617e692646"/>
 
 Upload your photo in the left box and click **Submit** button, the application will generate the image caption in the right box:
 
-<img width="600rem" alt="Example" src="https://github.com/user-attachments/assets/b80dc8d4-c005-49c7-b11c-7cec7f209d6f"/>
+<img width="600rem" alt="Example" src="https://github.com/user-attachments/assets/e39f8825-fc4d-42aa-9429-3941c2eb6014"/>
 
 To stop the application, use `Ctrl + C` in the Terminal
 
