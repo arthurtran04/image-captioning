@@ -13,6 +13,7 @@ This repository showcases an innovative **Image Captioning Application** powered
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo](#demo)
 - [License](#license)
 
 ## Prerequirements
@@ -86,6 +87,10 @@ Upload your photo in the left box and click **Submit** button, the application w
 <img width="600rem" alt="Example" src="https://github.com/user-attachments/assets/e39f8825-fc4d-42aa-9429-3941c2eb6014"/>
 
 To stop the application, use `Ctrl + C` in the Terminal
+
+## Demo
+
+My demo on Hugging Face Spaces: [link](https://huggingface.co/spaces/josephtran04/image-captioning)
 
 ## License
 
