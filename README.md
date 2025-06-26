@@ -35,7 +35,7 @@ image-captioning/
 
 ## Model
 
-- [Salesforce/blip-image-captioning-large](https://huggingface.co/Salesforce/blip-image-captioning-base)
+- [Salesforce/blip-image-captioning-base](https://huggingface.co/Salesforce/blip-image-captioning-base)
 
 ## Features
 
