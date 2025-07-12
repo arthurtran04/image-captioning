@@ -29,7 +29,7 @@ def caption_image(input_image: np.ndarray):
 # Create a Gradio interface
 iface = gr.Interface(
     fn=caption_image, 
-    inputs=gr.Image(), 
+    inputs=gr.Image(label="Input image"), 
     outputs="text",
     title="Image Captioning",
     description="This is a simple web app for generating captions for images using BLIP model from Salesforce.\nUpload the image file:"
