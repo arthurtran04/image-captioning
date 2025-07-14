@@ -1,8 +1,8 @@
-# Image Captioning Application using BLIP model
+# Image Captioning
 
 ## Introduction
 
-This repository showcases an innovative **Image Captioning Application** powered by the **BLIP model** (Bootstrapping Language-Image Pre-training). Built entirely in **Python**, this project demonstrates the fascinating intersection of computer vision and natural language processing by automatically generating descriptive captions for images. Perfect for those interested in exploring multimodal AI applications!
+This repository showcases an innovative **Image Captioning** application powered by the **BLIP model** (Bootstrapping Language-Image Pre-training). Built entirely in **Python**, this project demonstrates the fascinating intersection of computer vision and natural language processing by automatically generating descriptive captions for images. Perfect for those interested in exploring multimodal AI applications!
 
 ## Table of Contents
 
@@ -40,8 +40,7 @@ image-captioning/
 
 ## Features
 
-- Image Captioning Application using BLIP model from Salesforce
-- Using Gradio UI
+Generate a description (caption) for a image uploaded by user.
 
 ## Installation
 
