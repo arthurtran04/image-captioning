@@ -2,5 +2,5 @@ langchain==0.1.11
 gradio==5.23.2
 transformers>=4.53.0
 bs4==0.0.2
-requests==2.31.0
+requests>=2.32.4
 torch>=2.7.1-rc1
