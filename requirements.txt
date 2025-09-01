@@ -3,4 +3,4 @@ gradio==5.23.2
 transformers>=4.53.0
 bs4==0.0.2
 requests==2.31.0
-torch==2.2.1
+torch>=2.7.1-rc1
